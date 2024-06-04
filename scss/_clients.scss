@@ -1,0 +1,24 @@
+.clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 120px;
+    background-color: #1F2E35;
+    p{
+        font-size: 50px;
+        font-weight: 700;
+        padding: 30px 0px;
+        color: white;
+        
+    }
+
+    .client-logos{
+        display: flex;
+        gap: 50px;
+        margin-top: 100px;
+        img{
+            width: 100%;
+        }
+    }
+}
